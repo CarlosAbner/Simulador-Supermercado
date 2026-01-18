@@ -114,5 +114,8 @@ public class App {
             System.out.println("Desconto aplicado: Nenhum");
         }
         System.out.println(" ");
+
+        // fechando o scanner
+        leitor.close();
     }
 }
